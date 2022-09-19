@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+   
+    <title>Basic Electronics</title>
+</head>
+<body>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <header>
+        <h1>Basic Electronics</h1>
+    </header>
+    <main>
+        <section>
+            <!-- Part 1 Introduction to Electronics-->
+            <h2>Part 1 Introduction to Electronics</h2>
+            <!-- 1.1 Matter -->
+            <div class="sub">
+                <h3>1.1 Matter</h2>
+                <ul>
+                    <li>Occupies space</li>
+                    <li>Has weight</li>
+                </ul>
+            </div>
+            <!-- 1.2 Elements -->  
+            <div class="sub">
+                <h3>1.2 Elements</h3>
+                <ul>
+                    <li>Basic building block of nature</li>
+                    <li>Can't be reduced to a simpler substance by chemical means</li>
+                    <li>Over 100 known elements</li>
+                </ul>
+            </div>  
+            <!-- 1.3 Atom -->
+            <div class="sub">
+                <h3>1.3 Parts of an atom</h3>
+                <ul>
+                    <li>Nucleus - located at center of atom</li>
+                    <li>Proton - positively charged particles inside nucleus</li>
+                    <li>Neutrons - uncharged particles inside nucleus</li>
+                    <li>Electrons - negatively charged particles that orbit nucleus</li>
+                </ul>
+            <img src="atom.jpg" alt="atom">
+            </div>
+            <!-- 1.4 Properties of atom -->
+            <div class="sub">
+                <h3>1.4 Properties of atom</h3>
+                <ul>
+                    <li>Atomic number - the number of protons in the nuclues of the atom</li>
+                    <li>Atomic weight - the mass of an atom determined by the total number of protons and neutrons in the nucleus</li>
+                </ul>
+            </div>
+            <!-- 1.5 Electron orbits -->
+            <div class="sub">
+                <h3>1.5 Elecctron Properties</h3>
+                <ul>
+                    <li>Shell - where the electrons orbit around the nucleus in a specific sequence</li>
+                    <li>Valence Shell - the outer most shell</li>
+                    <li>Valence - the number of electrons contained in the valence shell</li>
+                </ul>
+                <img src="vshell.webp" alt="shell diagram">
+            </div>
+            <!-- 1.6 Conductors -->
+            <div class="sub">
+                <h3>1.6 Coductors</h3>
+                <ul>
+                    <li>Materials that contain a large number of free electrons (3 or fewer in valence shell)</li>
+                </ul>
+                <img src="conductivity.png" alt="conductors">
+            </div>
+            <!-- 1.7 Insulators -->
+            <div class="sub">
+                <h3>1.7 Insulators</h3>
+                <ul>
+                    <li>Prevent the flow of electricity</li>
+                    <li>Stabilized by absorbing valence electrons</li>
+                    <li>Insulators contain five or more electrons in the valence shell</li>
+                </ul>
+            </div>
+            <!-- 1.8 Semiconductors -->
+            <div class="sub">
+                <h3>1.8 Semiconductors</h3>
+                <ul>
+                    <li>Can be altered to function as either conductor or insulator</li>
+                    <li>Negative ion - a negatively charged atom</li>
+                    <li>Positive ion - a positively charged atom</li>
+                    <li>Semiconductors have four electrons in the valence shell</li>
+                    <img src="sc.png" alt="semiconductor">
+                </ul>
+            </div>
+            <!-- 1.9 Ionization -->
+            <div class="sub">
+                <h3>1.9 Ionization</h3>
+                <ul>
+                    <li>The process of gaining or losing electrons and is a significant player in current flow</li>
+                </ul>
+            </div>
+            <!-- 1.10 Current -->
+            <div class="sub">
+                <h3>1.10 Current</h3>
+                <ul>
+                    <li>Current - movement of electrons from negatively charged atoms to positively charged atoms, it
+                        is usually represented as <em>I</em>
+                    </li>
+                    <li>Coulomb - also represented as <em>C</em>, it has 6.24 x 10<sup>18</sup> electrons</li>
+                </ul>
+            </div>
+            <!-- 1.11 Ampere -->
+            <div class="sub">
+                <h3>1.11 Ampere</h3>
+                <ul>
+                    <li>One <em>C</em> moving past a single point in one second</li>
+                    <li>Also represented by <em>A</em></li>
+                    <li>Named after French physicisy Andre Marie Ampere</li>
+                    <li>Current is measured in amperes</li>
+                </ul>
+            </div>
+            <!-- 1.12 Potential -->
+            <div class="sub">
+                <h3>1.12 Potential</h3>
+                <ul>
+                    <li>Potential - The ability of the source to perform electrical work</li>
+                    <li>Difference of Potential - causes electrons to move or flow in a circuit and is known commonly
+                        as <strong>electromotive force</strong> (emf) or <strong>voltage</strong></li>
+                </ul>
+            </div>
+            <!-- 1.13 Voltage -->
+            <div class="sub">
+                <h3>1.13 Voltage</h3>
+                <ul>
+                    <li>The force that moves the electrons in the circuit</li>
+                    <li>The pressure or pump that moves electrons</li>
+                    <li>represented as <em>E</em></li>
+                    <li>Unit of measure called the volt</li>
+                </ul>
+            </div>
+            <!-- 1.14 Resistance -->
+            <div class="sub">
+                <h3>1.14 Resistance</h3>
+                <ul>
+                    <li>Opposition to the flow of electrons</li>
+                    <li>Degree of resistance depends on the size, shape or temperature</li>
+                    <li>Unit of measure called Ohms (<em>&Omega;</em>)</li>
+                    <li>Conductors - have low resistnce to current flow with many free electrons</li>
+                    <li>Insulators - have high resistnce to current flow with few free electrons</li>
+                </ul>
+            </div>
+            <div class="sub">
+                <h3>Summary</h3>
+                <p>
+                    <ul>
+                        <li> 
+                            Let's begin on the atomic level and then slowly work are way up while trying to understand
+                            the important physical properties that allow us to create amazing new technologies. What is a thing?
+                            A thing, in the most scientific view, is matter. If it occupies space and has weight, then it is matter
+                            which makes it a thing. 
+                        </li>
+                        <br>
+                        <li> 
+                            Next question, what is matter made of? That is what we call the elements. The basic building blocks of nature,
+                            Elements can't be reduced to a simpler substance by chemical means, and there are amazingly only 100 known
+                            elements that make up the etire universe.
+                        </li>
+                        <br>
+                        <li> 
+                            So now let's quickley break down what makes an element a specific element and get to the first important
+                            piece of electricity. So there's these things called atoms. Atoms contain a nucleus that is located in the center
+                            of the atom. Inside every nuclues there are protons and neutrons, and the protons have something that is known as 
+                            a positive charge while the nuetrons have no charge. It is this charge that holds the universe together. But most 
+                            atoms have one more part which is what is most important and fundamental to know, the electron. A negatively charged
+                            particle the orbits the proton and nuetron filled nucleus like a moon around a planet.
+                        </li>
+                        <br>
+                        <li>
+                            So now we have established what a element is and what an atom is, now what? Well we want to know what makes elements
+                            different from one another? Well an element is just a large number of atoms which all are identical, so to make a 
+                            different element, get atoms that look different, and weigh different. This can be accomplished by finding atoms
+                            with a different number of protons in the nucleus and a different weight (remeber that to be matter, the thing must
+                            have a weight and take up space, even if it is really small). So we can classify elements by the composition of their 
+                            atoms that make them up, namely atomic number and atomic weight.
+                        </li>
+                        <br>
+                        <li>
+                            The atomic number of an element is the number of protons in
+                            the nucleus of the atom. The atomic weight is the combined
+                            mass of the protons and nuetrons (nucleus). Electrons are 
+                            not included in the mass as their weight is negligible
+                        </li>
+                        <br>
+                        <li>
+                            Thus far, we know how elements are composed of and we know
+                            elements make up everything. We now have a really solid base 
+                            to begin talking about the properties of electrons. Going 
+                            forward, the only thing we really care about as far as 
+                            electronics go are electrons.
+                        </li>
+                        <br>
+                        <li>
+                            Electrons orbit the nucleus of an atom on a model that we call
+                            shells. Atoms have a different number of shells depending on
+                            how many electrons it has. As far as we are concerned, the
+                            only shell that matters is the one that orbits the furthest
+                            away from the nucleus known as the valence shell.
+                        </li>
+                        <br>
+                        <li>
+                            Elements that are made up of atoms that have few (three of less) electrons in their valence shell are also good
+                            conductors. What this mean is that they have the potential to 
+                            get rid of their electrons and give them to another atom
+                            (allow flow of electricity).
+                        </li>
+                        <br>
+                        <li>
+                            Elements that have many electons in their valence shell (five or more) are likely to absorb electrons to fill the
+                            remaining spots in their valence shell. 
+                        </li>
+                        <li>
+                            This brings us to the third type of element, the element that 
+                            has four electrons in it's valence shell. The most magical
+                            and important type of element in all of the technology
+                            created in this world so far. The semiconductor. A wonderful 
+                            property that allows materials to be both conductors and 
+                            insulators under certain conditions. What us clever humans 
+                            have done is learn to control the conditions which make the 
+                            semiconductors switch properties. This basically creates a 
+                            switch we can control with current (don't worry we haven't
+                            gotten there yet) that is mere nano-meters in size. We will
+                            be going way more in depth into this later so don't worry.
+                        </li>
+                        <li>
+                            Let's quickley begin defining some terms which are vital
+                            when trying to understand computers. Starting with ioization -
+                            the process of gaining or losing electrons, essentialy
+                            creating current flow
+                        </li>
+                        <li>
+                            Current 
+                        </li>
+                    </ul>                   
+                </p>
+            </div>
+        </section>
+<!-- ------------------------------------------------------------------------------- -->
+<!-- ------------------------------------------------------------------------------- -->
+        <section>
+            <!-- Part 2 What is current? -->
+            <h2>What is current?</h2>
+            <!-- 2.1 Charges -->
+            <div class="sub">
+                <h3>Charges</h3>
+                <ul>
+                    <li>First law of electrostatic charges - like 
+                        charges repel eachother</li>
+                    <li>Second law of electrostatic charges - unlike
+                        charges repel eachother
+                    </li>
+                    <li>
+                        Coulomb (<em>C</em> ) - unit for measuring charge, 
+                        one coloumb is 6,240,000,000,000,000,000 electrons or
+                        6.24 x 10<sup>18</sup>
+                    </li>
+                </ul>
+                <img src="charge.png" alt="charges">
+            </div>
+            <!-- 2.2 Current-->
+            <div class="sub">
+                <h3>Current</h3>
+                <ul>
+                    <li>Current - the drift of electrons from an area of negative 
+                        charge to an area of positive charge
+                    </li>
+                    <li>Ampere (A) - The amount of current in a conductor when one 
+                        coulomb of charge moves past a point in one second
+                    </li>
+                </ul>
+            </div>
+            <!-- 2.3 First Relationship-->
+            <div class="sub">
+                <h3>First Relationship</h3>
+                <ul>
+                    <li>
+                        The relationship between amperes and coulombs per second can be
+                        expressed as: $$I = \frac{Q}{t}$$
+                    </li>
+                    <li>I = current measured in amperes</li>
+                    <li>Q = quantity of electrical charge in coulombs</li>
+                    <li>t = time in seconds</li>
+                </ul>
+                <img src="qit.gif" alt="qit">
+            </div>
+            <!-- 2.3 Hole-->
+            <div class="sub">
+                <h3>Hole</h3>
+                <ul>
+                  <li>
+                    Hole - the movement of an electron from one atom to the next,
+                    creating the appearence of a positive charge moving in the opposite
+                    direction
+                  </li>
+                </ul>
+            </div>
+            <!-- 2.4 Voltage source-->
+            <div class="sub">
+                <h3>Voltage source</h3>
+                <ul>
+                  <li>Supplies electrons from one end of the conductors</li>
+                  <li>Removes electrons from the other end of the conductor</li>
+                  <li>Think of it like a pump</li>
+                </ul>
+            </div>
+            <!-- 2.5 Scientific notation-->
+            <div class="sub">
+                <h3>Scientific notation</h3>
+                <ul>
+                  <li>
+                    Means of using single digit numbers plus powers of 10 to 
+                    express large and small numbers $$3000 = 3 x 10^3$$
+                    $$.0000003 = 10^{-6}$$
+                  </li>
+                </ul>
+                <img src="cmp.png" alt="water/electricity">
+            </div>
+            <!-- 2.6 How many amperes?-->
+            <div class="sub">
+                <h3>How many amperes?</h3>
+                <ul>
+                  <li>
+                    Milliampere (mA) - used more frequently than ampere
+                    and is equal to $$\frac{1}{1000}A = .001A$$
+                  </li>
+                  <li>
+                    Microampere (&mu;A) - used more frequently than ampere
+                    and is equal to $$\frac{1}{1000000}A = .000001A$$
+                  </li>
+                </ul>
+            </div>
+            <!-- 2.7 Summary-->
+            <div class="sub">
+                <h3>Summary</h3>
+                <ul>
+                    <li></li>
+                </ul>
+            </div>        
+        </section>
+<!--------------------------------------------------------------------------------- -->
+<!--------------------------------------------------------------------------------- -->
+        <section>
+            <!-- Part 3 Voltage -->
+            <h2>Voltage</h2>
+            <!-- 3.1 Voltage sources -->
+            <div class="sub">
+                <h3>Voltage sources</h3>
+                There are only 6 sources. That is it.
+                <ul>
+                    <li>Friction</li>
+                    <li>Magnetism</li>
+                    <li>Chemicals</li>
+                    <li>Light</li>
+                    <li>Heat</li>
+                    <li>Pressure</li>
+                </ul>
+            </div>
+            <!-- 3.1 Friction -->
+            <div class="sub">
+                <h3>Friction</h3>
+                <ul>
+                    <li>Van de Graff Generator</li>
+                </ul>
+                <img src="vdg.jpg" alt="van de graff gen">
+            </div>
+            <!-- 3.2 Magnetism -->
+            <div class="sub">
+                <h3>Magnetism</h3>
+                <ul>
+                    <li>Van de Graff Generator</li>
+                </ul>
+                <img src="vdg.jpg" alt="van de graff gen">
+            </div>
+        </section>
+    </main>
+   
+</body>
+</html>
